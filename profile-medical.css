@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+.main {
+  display: flex;
+  width: 98vw;
+  height: 95vh;
+  border: 1px solid none;
+  margin: 0.9em auto;
+  box-shadow: 1px 1px 1px 1px #E5E5E5;
+} 
+.side-bar {
+  width: 12vw;
+  padding: 2em;
+  line-height: 2em;
+}
+h1, .profile-img {
+  margin-left: -0.5em;
+}
+.profile-img {
+  margin-top: 3em;
+}
+.navicon {
+  margin-right: 1em;
+  margin-top: 0.2em;
+}
+h3 {
+  font-size: 14px;
+  color: #00274D;
+  width: 130px;
+  margin-top: -4em;
+  margin-left: 3.5em;
+}
+p {
+  font-size: 10px;
+  color: #4D4D4D;
+  margin-top: -1em;
+  margin-left: 5em;
+}
+nav {
+  font-size: 14px;
+  color: #004E99;
+  margin-top: 2em;
+}
+nav ul li {
+  list-style-type: none;
+  margin-top: 0.3em;
+}
+.btn {
+  margin-top: 1em;
+}
+.btn-img {
+  margin-left: -1.5em;
+}
+.toggle {
+  color: #004E99;
+  font-size: 14px;
+  position: relative;
+  width: 200px;
+}
+.ellipse {
+  position: absolute;
+  top: 9px;
+  left: 2px;
+}
+.rectangle {
+  margin-left: -1.5em;
+  margin-top: 0.5em;
+}
+.covid {
+  text-decoration: none;
+  border: 1px solid none;
+  display: block;
+  color: white;
+  font-size: 12px;
+  width: 200px;
+  height: 40px;
+  padding: 0.5em 2em;
+  box-sizing: border-box;
+  margin-left: -1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 0 0 10px 10px;
+  background-color: #1E90FF;
+}
+.section {
+  width: 85vw;
+  background-color: #E5E5E5;
+}
+.header-text {
+  font-size: 28px;
+  margin: 0 0 0 1em;
+}
+input {
+  margin: 2.5em;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  width: 250px;
+  padding: 0.5em;
+  position: relative;
+}
+.search-icon {
+  margin: 2.5em -4em;
+  position: absolute;
+}
+.icons {
+  width: 150px;
+  margin: -2em 0 0 60em;
+}
+.icon {
+  margin-right: 2em;
+}
+::placeholder {
+  color: #999999;
+  font-size: 13px;
+}
+.dashboard {
+  display: inline-flex;
+  width: 800px;
+  margin-top: -3em;
+  margin-left: 1.8em;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+ul .sub-link {
+  color: #000;
+  font-size: 16px;
+  margin-right: 1em;
+}
+ul .sub-links {
+  font-size: 12px;
+  color: #0074E5;
+  margin-right: 1em;
+  margin-left: 0.5em;
+}
+ul .bio {
+  font-size: 14px;
+  margin: 0.5em;
+  color: #081A2B;
+}
+.bio-spons {
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: 1.8em;
+}
+.button {
+  width: 133px;
+  height: 40px;
+  background-color: #CC0000;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #CC0000;
+  font-size: 14px;
+  cursor: pointer;
+  padding: auto;
+  box-sizing: border-box;
+  margin: -2em 4em ;
+}
+.image {
+   margin: 2em;
+   background-color: #E5E5E5;
+}
+.sponsors {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 1em;
+  color: #000;
+}
+hr {
+  width: 75vw;
+  margin: 0 0 0 2em;
+}
